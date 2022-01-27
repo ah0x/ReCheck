@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finalizer", "Finalizer\Fina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedTypes", "NestedTypes\NestedTypes.csproj", "{F2F95997-86A6-445D-9BDB-B1A7249D2542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TroubleshootingAndDebugging", "TroubleshootingAndDebugging\TroubleshootingAndDebugging.csproj", "{CA64026D-34B5-4DCF-ADCC-E9A436D4336C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F2F95997-86A6-445D-9BDB-B1A7249D2542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2F95997-86A6-445D-9BDB-B1A7249D2542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2F95997-86A6-445D-9BDB-B1A7249D2542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA64026D-34B5-4DCF-ADCC-E9A436D4336C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA64026D-34B5-4DCF-ADCC-E9A436D4336C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA64026D-34B5-4DCF-ADCC-E9A436D4336C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA64026D-34B5-4DCF-ADCC-E9A436D4336C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
