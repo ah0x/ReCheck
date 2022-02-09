@@ -11,12 +11,20 @@ namespace Inheritance
         public const int MinmumLoggedHours = 176;
         public const decimal OverTimeRate = 1.25m;
 
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public decimal LoggedHours { get; set; }
-        public decimal wage { get; set; }
+        protected Employee(int id, string name, decimal loggedHours, decimal wage)
+        {
+            Id = id;
+            Name = name;
+            LoggedHours = loggedHours;
+            this.wage = wage;
+        }
 
-        public virtual decimal Calculate() => CalculateBaseSalary() + CalculateOverTime();
+        protected int Id { get; set; }
+        protected string Name { get; set; }
+        protected decimal LoggedHours { get; set; }
+        protected decimal wage { get; set; }
+
+        protected virtual decimal Calculate() => CalculateBaseSalary() + CalculateOverTime();
 
         private decimal CalculateBaseSalary() => LoggedHours * wage;
 
@@ -24,7 +32,9 @@ namespace Inheritance
 
         public override string ToString()
         {
-            return $"\nId: {Id}" +
+            var type = GetType().ToString().Replace("Inheritance.", "");
+            return $"{type}" +
+                   $"\nId: {Id}" +
                    $"\nName: {Name}" +
                    $"\nLogged Hours: {LoggedHours}" +
                    $"\nwage: {wage}" +

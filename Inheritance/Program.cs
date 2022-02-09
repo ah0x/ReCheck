@@ -22,15 +22,20 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            Manager m = new Manager
-            {
-                Id = 1,
-                Name = "Ali Hamza",
-                LoggedHours = 180,
-                wage=10
-            };
+            Manager m = new Manager(1,"Ali Hamza",180,10);
 
-            Console.WriteLine(m);
+            Maintanence ma = new Maintanence(2, "Ahmed Hamza", 180, 10);
+
+            Sales s = new Sales(3, "Mohammed Hamza", 180, 9, 0.05m, 10000m);
+
+            Developer d = new Developer(4, "Salem Hamza", 186, 15, true);
+
+            Employee[] employees = { m, ma, s, d };
+            foreach (var employee in employees)
+            {
+                Console.WriteLine(employee);
+                Console.WriteLine("\n---------------------");
+            }
 
             Console.ReadKey();
             {

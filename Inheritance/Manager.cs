@@ -4,9 +4,14 @@ namespace Inheritance
 {
     class Manager :Employee
     {
-        public const decimal AllownceRate = 0.05m;
+        private const decimal AllownceRate = 0.05m;
 
-        public override decimal Calculate()
+        public Manager(int id, string name, decimal loggedHours, decimal wage):base(id,name,loggedHours,wage)
+        {
+
+        }
+
+        protected override decimal Calculate()
         {
             return base.Calculate() + CalculateAllownce();
         }
