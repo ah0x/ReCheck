@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{CBA2AE46-6A76-4E2D-A56E-ECF5484DE455}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excaption", "Excaption\Excaption.csproj", "{442612B3-3C8A-48A9-9DAE-EAA57A0E710F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{CBA2AE46-6A76-4E2D-A56E-ECF5484DE455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBA2AE46-6A76-4E2D-A56E-ECF5484DE455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA2AE46-6A76-4E2D-A56E-ECF5484DE455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442612B3-3C8A-48A9-9DAE-EAA57A0E710F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442612B3-3C8A-48A9-9DAE-EAA57A0E710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442612B3-3C8A-48A9-9DAE-EAA57A0E710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442612B3-3C8A-48A9-9DAE-EAA57A0E710F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
